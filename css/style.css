@@ -14,11 +14,20 @@
 
 body {
     background-color: var(--clr-light);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+}
+
+.container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 50px;
+    align-self: center;
+    height: auto;
+    display: grid;
+    grid-column-start: 2;
 }
+
 .main {
     background-color: var(--clr-white);
     border: 1px solid var(--clr-white);
