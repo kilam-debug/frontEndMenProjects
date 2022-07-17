@@ -1,4 +1,7 @@
-* {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     font-family: outfit;
 }
 
@@ -8,6 +11,7 @@
     --clr-blue: hsl(220, 15%, 55%);
     --clr-darkblue: hsl(218, 44%, 22%);
 }
+
 body {
     background-color: var(--clr-light);
     display: flex;
